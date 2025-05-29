@@ -1,0 +1,30 @@
+[Running] python -u "d:\backup web\mp3-flask\app.py"
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-672-643
+127.0.0.1 - - [29/May/2025 23:08:55] "GET / HTTP/1.1" 200 -
+
+[download]   0.0% of    2.05MiB at    4.46KiB/s ETA 07:49
+[download]   0.1% of    2.05MiB at   13.33KiB/s ETA 02:37
+[download]   0.3% of    2.05MiB at   30.97KiB/s ETA 01:07
+[download]   0.7% of    2.05MiB at   65.50KiB/s ETA 00:31
+[download]   1.5% of    2.05MiB at  115.67KiB/s ETA 00:17
+[download]   3.0% of    2.05MiB at  123.91KiB/s ETA 00:16
+[download]   6.1% of    2.05MiB at  162.72KiB/s ETA 00:12
+[download]  12.1% of    2.05MiB at  149.21KiB/s ETA 00:12
+[download]  18.7% of    2.05MiB at  153.01KiB/s ETA 00:11
+[download]  26.4% of    2.05MiB at  179.62KiB/s ETA 00:08
+[download]  41.3% of    2.05MiB at  248.62KiB/s ETA 00:04
+[download]  71.1% of    2.05MiB at  384.01KiB/s ETA 00:01
+[download] 100.0% of    2.05MiB at  475.30KiB/s ETA 00:00
+[download] 100% of    2.05MiB in 00:00:04 at 426.49KiB/s 
+                                                        
+127.0.0.1 - - [29/May/2025 23:09:28] "POST /download_song HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2025 23:09:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2025 23:09:36] "GET /downloads/Hey%20Daddy%20(Daddy's%20Home%20TikTok%20Remix).mp3 HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2025 23:09:39] "GET /downloads/Hey%20Daddy%20(Daddy's%20Home%20TikTok%20Remix).mp3 HTTP/1.1" 206 -
